@@ -31,6 +31,6 @@ describe('calculateNumber', () => {
   });
 
   it('rounding down a and b floating point with trailing 9s', () => {
-    assert.strictEqual(calculateNumber(2.499999, 3.499999), 5);
+    assert.strictEqual(calculateNumber(3.499999, 4.499999), 5);
   });
 });
