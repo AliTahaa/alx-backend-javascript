@@ -4,7 +4,7 @@ const { expect } = require('chai');
 const sendPaymentRequestToApi = require('./3-payment');
 
 describe('sendPaymentRequestToApi', () => {
-  it('sendPaymentRequestToApi uses the calculateNumber method of Utils', () => {
+  it('sendPaymentRequestToApi', () => {
     const bigBrother = sinon.spy(Utils);
 
     sendPaymentRequestToApi(100, 20);
