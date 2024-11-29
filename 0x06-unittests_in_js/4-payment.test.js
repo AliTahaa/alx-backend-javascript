@@ -4,7 +4,7 @@ const { expect } = require('chai');
 const sendPaymentRequestToApi = require('./4-payment');
 
 describe('sendPaymentRequestToApi', () => {
-  it('sendPaymentRequestToApi calls console.log with the right arguments', () => {
+  it('sendPaymentRequestToApi call console.log', () => {
     const bigBrother = sinon.spy(console);
     const dummy = sinon.stub(Utils, 'calculateNumber');
 
